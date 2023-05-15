@@ -4,8 +4,22 @@
 # Introduction : Welcome To Hp Anytime....
 # Select Your choices : a) Cylinder booking , b)Regenerate password, c)Create new account, d)Issue , e)Help;
 
+"""A single Customer details, It's a basic cylinder booking 
+   So we can login only predifind data."""
 
-import webbrowser
+"""**************************************"""
+"""Customer ID: ayanabha5263
+   Password: pass
+   Phone Number: 9007328820
+   Cylinder Rate: 1100Rs
+   Cards: a) Rupa - 7845
+          b) Mastercard - 8745
+          c) Visa -  4587
+          d) Credit Card - 5784 
+   Membership ID: memberayan789"""
+"""**************************************"""
+"""This project is still under devolopment.
+   It's update version release comming soon!"""
 
 
 def cybooking(CID, Password):
@@ -193,11 +207,9 @@ def issue():
     print("Any issue?")
     yesorno = str(input(" `yes` or `no`: "))
     if yesorno == "yes":
-        print("Please go to our website, link in under the below!")
-        url = (
-            https // www.bankbazaar.com / gas - connection / hp - gas - complaint.html
-        )  #:~:text=The%2024%2Dhour%20helpline%20number,HP%20Gas%20complaints%20is%201906.
-        webbrowser.open(url)
+        print("If you facing anyproblem, please go to our website, name in below!")
+        print("MyHpgas.in")
+
     elif yesorno == "no":
         print("`EXIT`")
     else:
@@ -226,6 +238,7 @@ while True:
     elif choice == "4":
         ola = issue()
         print(ola)
+        break
     else:
         print("ERROR!!! 'Incorrect Choice' Please! choice a predefind option.")
 
